@@ -1,7 +1,7 @@
 {
   "name": "eggtest",
   "version": "1.0.0",
-  "description": "egg测试，尝试搭建后端并提交",
+  "description": "egg测试，尝试搭建后端",
   "private": true,
   "egg": {
     "declarations": true
