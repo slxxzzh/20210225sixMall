@@ -12,7 +12,7 @@ class HomeController extends Controller {
     let user = await ctx.model.Backstageuser.findOne({ username, password });
     if (user) {
       ctx.body = {
-        code: 200,
+        code: 300,
         msg: "登录成功",
         data: {
           user,
